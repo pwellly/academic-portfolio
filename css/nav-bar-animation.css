@@ -1,0 +1,27 @@
+.nav-button:hover {
+    color: orange;
+    transition: 0.4s;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-button::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: orange;
+    transition: all .4s;
+}
+
+.nav-button:hover::before {
+    width: 100%;
+}
+
+.nav-icon:hover {
+    transition: 0.3s;
+    filter: invert(100%);
+    background-color: black;
+}
