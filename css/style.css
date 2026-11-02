@@ -8,11 +8,11 @@ body {
 }
 
 main {
-    min-height: 400px;
-    border-left: 0.5px solid white;
+    border: 1px solid white;
+    min-height: 1000px;
+    width: 99.5%;
     display: flex;
-    margin-left: clamp(10%, 20%, 20%);
-    margin-right: clamp(10%, 20%, 20%);
+    justify-self: center;
     /* Alignment of Grid */
     gap: 100px;
     
