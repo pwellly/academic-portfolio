@@ -3,6 +3,7 @@
     transition: 0.4s;
     font-size: 22px;
     font-weight: 700;
+    line-height: 150%;
 }
 
 .nav-button::before{

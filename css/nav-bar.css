@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .nav-bar {
-    height: 10%;
+    height: 3rem;
+    width: 100%;
     background-color: #06090f;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     color: #283046;
-    position: relative;
+    position: sticky;
+    z-index: 1;
     top: 0px;
 }
 
 .nav-bar ul {
-    padding-left: clamp(20px, 10vw, 200px);
-    padding-right: clamp(20px, 10vw, 200px);
+    max-height: 3rem;
+    padding-left: clamp(2rem, 1rem, 5rem);
+    padding-right: clamp(2rem, 1rem, 5rem);
     grid-template-rows: auto;
     justify-content: center;
     margin: 0;
@@ -27,7 +30,7 @@
     width: 10%;
     padding: 5px;
     text-align: center;
-    line-height: 40px;
+    line-height: 250%;
 }
 
 .nav-bar .nav-button{
